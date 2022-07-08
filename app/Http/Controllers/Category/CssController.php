@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class CssController extends Controller
 {
     public function css(){
-        return view('category.css.css');
+        return view('pages.category.css.css');
     }
 }

@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class scheduleController extends Controller
 {
     public function schedule(){
-        return view('dashBord.dashBordContent.Schedule');
+        return view('pages.dashBord.dashBordContent.Schedule');
     }
 }

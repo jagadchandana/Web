@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class JavascriptController extends Controller
 {
     public function javaScript(){
-        return view ('category.javaScript.javaScript');
+        return view ('pages.category.javaScript.javaScript');
     }
 }

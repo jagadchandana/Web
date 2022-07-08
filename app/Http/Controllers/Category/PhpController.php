@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class PhpController extends Controller
 {
     public function php(){
-        return view('category.php.php');
+        return view('pages.category.php.php');
     }
 }

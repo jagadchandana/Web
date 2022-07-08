@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class AngularContrller extends Controller
 {
     public function angular(){
-        return view('project.Angular.angular');
+        return view('pages.project.Angular.angular');
     }
 }

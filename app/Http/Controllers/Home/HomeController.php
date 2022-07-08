@@ -12,18 +12,18 @@ class HomeController extends Controller
     }
 
     public function aboutUs(){
-        return view('about.aboutus');
+        return view('pages.about.aboutus');
     }
     public function contact(){
-        return view('contact.contact');
+        return view('pages.contact.contact');
     }
     public function dashBord(){
-        return view('dashBord.dashBord');
+        return view('pages.dashBord.dashBord');
     }
     public function project(){
-        return view('project.project');
+        return view('pages.project.project');
     }
     public function category(){
-        return view('category.category');
+        return view('pages.category.category');
     }
 }

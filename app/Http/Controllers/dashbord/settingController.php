@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class settingController extends Controller
 {
     public function setting(){
-        return view('dashBord.dashBordContent.setting');
+        return view('pages.dashBord.dashBordContent.setting');
     }
 }

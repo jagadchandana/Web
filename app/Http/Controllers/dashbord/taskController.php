@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class taskController extends Controller
 {
     public function task(){
-        return view('dashBord.dashBordContent.Task');
+        return view('pages.dashBord.dashBordContent.Task');
     }
 }

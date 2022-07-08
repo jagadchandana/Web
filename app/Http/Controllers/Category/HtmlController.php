@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class HtmlController extends Controller
 {
     public function html(){
-        return view('category.html.html');
+        return view('pages.category.html.html');
     }
 }

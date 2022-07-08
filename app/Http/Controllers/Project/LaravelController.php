@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class LaravelController extends Controller
 {
     public function lara(){
-        return view('project.Lara.la');
+        return view('pages.project.Lara.la');
     }
 }
